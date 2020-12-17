@@ -6,13 +6,13 @@
 $getal1 = 1;
 
 
-echo $getal1-10;
+echo $getal1-=10;
 echo '<br>';
-echo $getal1+10;
+echo $getal1+=10;
 echo '<br>';
-echo $getal1*10;
+echo $getal1*=10;
 echo '<br>';
-echo $getal1/10;
+echo $getal1/=10;
 ?>
 
 </body>
