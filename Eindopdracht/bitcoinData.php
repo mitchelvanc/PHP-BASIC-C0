@@ -38,12 +38,12 @@ function calculateBitcoinAmount(){
     }
 
     //SCHRIJF JE CODE.
-$prijs = getBitcoinPrice();
-$koop = $euro;
-$berekening =  $euro / $prijs;
+    $prijs = getBitcoinPrice();
+    $koop = $euro;
+    $berekening =  $euro / $prijs;
 
 
-return[$prijs, $euro, $berekening];
+    return [$prijs, $euro, $berekening];
 }
 /******************************************* OPDRACHT 3 doe je hierboven *******************************************/
 /*******************************************************************************************************************/
